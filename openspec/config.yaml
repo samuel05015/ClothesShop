@@ -1,0 +1,15 @@
+schema: spec-driven
+
+context: |
+  VestiGestão é um protótipo web estático, sem dependências e sem servidor de aplicação.
+  A interface é em português do Brasil e os dados persistem apenas no localStorage.
+  Cada combinação de cor e tamanho tem SKU, código interno e estoque próprios.
+  Não há autenticação, banco compartilhado, emissão fiscal nem garantia de uso simultâneo.
+
+rules:
+  proposal:
+    - Descrever o benefício para o operador da loja e os limites do protótipo.
+  specs:
+    - Escrever requisitos verificáveis com cenários observáveis.
+  design:
+    - Preservar a aplicação estática enquanto a evolução não exigir backend.
